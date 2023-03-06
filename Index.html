@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Hamilzon Software | Privacy Policy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap.min.css"
+      integrity="sha512-K1W8DvDMCsR7GnHUI5d5q3ej4vZe4+a09pG10MYx+ndnL8b1cMgA72MM+sspsnEOMU6ttvU6yBXxb6bG0fI7+Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hamilzon Software</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Terms.html">Terms</a>
+              </li>
+                   <li class="nav-item">
+          <a class="nav-link" href="Cookies.html">Cookies</a></li>
+                      <li class="nav-item">
+          <a class="nav-link" href="Support.html">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Press.html">Press</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Legal.html">Legal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" onsubmit="search(event)">
+              <input
+                id="search-input"
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container mt-5">
+      <div>
+        <div id="search-results"></div>
+        <h2>About Hamilzon Software</h2>
+        <p>
+          Hamilzon Software, also known as Hamilzon AI, is a software and AI
+          company that is dedicated to protecting user privacy while delivering
+          high-quality tech products. We believe that technology should be
+          accessible to everyone, and we strive to create products that are both
+          innovative and user-friendly.
+        </p>
+        <p>
+          Our team of experts is constantly working to develop new and exciting
+          products, including software, mobile apps, and AI solutions. We believe
+          in using the latest technologies and tools to create products that can
+          make a difference in people's lives.
+        </p>
+        <p>
+          At Hamilzon Software, we understand the importance of privacy and
+          security in today's digital age. That's why we take great care in
+          ensuring that our products are designed with user privacy in mind. We adhere to strict security protocols and employ state-of-the-art
+            encryption technologies to keep your data safe and secure.
+        </p>
+        <p>Our commitment to our users extends beyond the products we create. We also believe in providing exceptional customer support, with a dedicated
+            team of experts available to assist with any questions or issues you may have. We believe that providing outstanding support is just as important
+            as delivering innovative products and services.</p>
+<p>We are proud of what we have accomplished at Hamilzon Software, and we are excited about the future. We believe that our commitment to user privacy
+and our dedication to creating high-quality tech products will continue to set us apart in the industry.
+</p>
+</div>
+</main>
+
+
+ <div class="card">
+          <div class="card-body">
+                 <!-- HTML code -->
+<h2 class="card-title">Today's Date</h2>
+<p id="current-date" class="card-text"></p>
+      </div>
+    </div>
+     </div>
+</main>
+<footer class="bg-dark text-light py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p>&copy; 2023 Hamilzon Software. All Rights Reserved.</p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline text-md-end">
+          <li class="list-inline-item"><a href="Terms html">Terms of Use</a></li>
+          <li class="list-inline-item"><a href="privacy.html">Privacy Policy</a></li>
+          <li class="list-inline-item"><a href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" charset="utf-8">
+  
+const currentDate = new Date();
+const dateElement = document.getElementById('current-date');
+dateElement.innerHTML = currentDate.toDateString();
+</script>
